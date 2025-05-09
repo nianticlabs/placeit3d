@@ -1,4 +1,9 @@
 # PlaceIt3D: Language-Guided Object Placement in Real 3D Scenes
+
+**Authors:** [Ahmed Abdelreheem](https://samir55.github.io), [Filippo Aleotti](https://filippoaleotti.github.io/website/), [Jamie Watson](https://scholar.google.com/citations?user=5pC7fw8AAAAJ), [Zawar Qureshi](https://scholar.google.com/citations?user=P2jZC8YAAAAJ), [Abdelrahman Eldesokey](https://abdo-eldesokey.github.io/), [Peter Wonka](https://peterwonka.net/), [Gabriel Brostow](http://www0.cs.ucl.ac.uk/staff/G.Brostow/), [Sara Vicente](https://scholar.google.com/citations?user=7wWsNNcAAAAJ), [Guillermo Garcia-Hernando](https://guiggh.github.io/).
+
+
+
 <p align="center">
   <img src="media/teaser_figure.jpg"width="720" />
 </p>
@@ -9,10 +14,11 @@
 - BibTeX:
 ```
 @article{abdelreheem2025Placeit3d,
-        author = {Abdelreheem, Ahmed and Aleotti, Filippo and Watson, Jamie and Qureshi, Zawar and Eldesokey, Abdelrahman and Wonka, Peter and Brostow, Gabriel and Vicente, Sara and Garcia-Hernando, Guillermo}
+        author = {Ahmed Abdelreheem and Filippo Aleotti and Jamie Watson and Zawar Qureshi and Abdelrahman Eldesokey and Peter Wonka and Gabriel Brostow and Sara Vicente and Guillermo Garcia-Hernando}
         title = {PlaceIt3D: Language-Guided Object Placement in Real 3D Scenes},
-        journal = {arXiv},
-        year={2025}
+        journal = Computing Research Repository (CoRR),
+        volume = {abs/2505.05288},
+        year = {2025}
 }
 ```
 Copyright © Niantic Spatial 2025. Patent Pending.

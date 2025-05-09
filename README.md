@@ -5,7 +5,7 @@
 <b>Dataset, benchmark and code coming soon!</b>
 
 - [Project page](https://nianticlabs.github.io/placeit3d/)
-- [arXiv link](https://arxiv.org)
+- [arXiv link](https://arxiv.org/abs/2505.05288)
 - BibTeX:
 ```
 @article{abdelreheem2025Placeit3d,

@@ -14,9 +14,9 @@
 - BibTeX:
 ```
 @article{abdelreheem2025Placeit3d,
-        author = {Ahmed Abdelreheem and Filippo Aleotti and Jamie Watson and Zawar Qureshi and Abdelrahman Eldesokey and Peter Wonka and Gabriel Brostow and Sara Vicente and Guillermo Garcia-Hernando}
+        author = {Ahmed Abdelreheem and Filippo Aleotti and Jamie Watson and Zawar Qureshi and Abdelrahman Eldesokey and Peter Wonka and Gabriel Brostow and Sara Vicente and Guillermo Garcia-Hernando},
         title = {PlaceIt3D: Language-Guided Object Placement in Real 3D Scenes},
-        journal = Computing Research Repository (CoRR),
+        journal = {Computing Research Repository (CoRR)},
         volume = {abs/2505.05288},
         year = {2025}
 }

@@ -7,18 +7,18 @@
 <p align="center">
   <img src="media/teaser_figure.jpg"width="720" />
 </p>
-<b>Dataset, benchmark and code coming soon!</b>
+<b>Code coming soon!</b>
 
 - [Project page](https://nianticlabs.github.io/placeit3d/)
 - [arXiv link](https://arxiv.org/abs/2505.05288)
+- [Dataset link](https://drive.google.com/drive/folders/1NqTHnyMl3CVZbZ1fg1DIYtpu3Jh83mSe?usp=sharing)
 - BibTeX:
 ```
-@article{abdelreheem2025Placeit3d,
-        author = {Ahmed Abdelreheem and Filippo Aleotti and Jamie Watson and Zawar Qureshi and Abdelrahman Eldesokey and Peter Wonka and Gabriel Brostow and Sara Vicente and Guillermo Garcia-Hernando},
-        title = {PlaceIt3D: Language-Guided Object Placement in Real 3D Scenes},
-        journal = {Computing Research Repository (CoRR)},
-        volume = {abs/2505.05288},
-        year = {2025}
+@inproceedings{abdelreheem2025Placeit3d,
+  author = {Abdelreheem, Ahmed and Aleotti, Filippo and Watson, Jamie and Qureshi, Zawar and Eldesokey, Abdelrahman and Wonka, Peter and Brostow, Gabriel and Vicente, Sara and Garcia-Hernando, Guillermo},
+  title = {PlaceIt3D: Language-Guided Object Placement in Real 3D Scenes},
+  booktitle = {ICCV},
+  year={2025}
 }
 ```
 Copyright © Niantic Spatial 2025. Patent Pending.

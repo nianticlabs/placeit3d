@@ -227,3 +227,5 @@ If you find our work useful for your project, please consider citing our paper:
   year = {2025}
 }
 ```
+
+Copyright © Niantic Spatial 2025. Patent Pending. All rights reserved.

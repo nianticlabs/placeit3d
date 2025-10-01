@@ -1,0 +1,81 @@
+model:
+  arch: placewizard
+  model_type: pretrain_flant5xl
+  use_grad_checkpoint: false
+  mask_embedding: false
+  point_encoder_cfg:
+    input_channel: 6
+    media: 32
+    normalize_before: true
+    return_blocks: true
+    fix_module:
+    - input_conv
+    - unet
+    - output_layer
+  mask_decoder_cfg:
+    media: 32
+    num_layer: 6
+    d_model: 256
+    d_text: 512
+    nhead: 8
+    hidden_dim: 1024
+    dropout: 0.0
+    activation_fn: gelu
+    attn_mask: true
+  seg_criterion_cfg:
+    loss_weight:
+    - 1.0
+    - 1.0
+    - 0.5
+    - 5.0
+    loss_fun: focal
+  pred_confidence: 0.5
+datasets:
+  placeit3d:
+    text_processor:
+      train:
+        name: blip_question
+        prompt: ''
+      eval:
+        name: blip_question
+    build_info:
+      annotations:
+        train:
+          storage: PlaceIt3D/placeit3d_train.h5
+        test:
+          storage: PlaceIt3D/placeit3d_val.h5
+        val:
+          storage: PlaceIt3D/placeit3d_val.h5
+run:
+  task: placeit3d_seg
+  job_id: placeit3d_placewizard
+  lr_sched: linear_warmup_cosine_lr
+  init_lr: 0.0001
+  min_lr: 1.0e-05
+  warmup_lr: 1.0e-08
+  warmup_steps: 1000
+  weight_decay: 0.05
+  max_epoch: 101
+  batch_size_train: 16
+  batch_size_eval: 1
+  num_workers: 6
+  accum_grad_iters: 1
+  max_len: 60
+  min_len: 1
+  num_beams: 1
+  inference_method: generate
+  seed: 42
+  output_dir: output/placewizard
+  amp: true
+  evaluate: false
+  train_splits:
+  - train
+  valid_splits: []
+  test_splits: []
+  device: cuda
+  world_size: 16
+  dist_url: env://
+  distributed: true
+  resume: true
+  ray_num_gpus: 4
+  ray_gpu_type: any

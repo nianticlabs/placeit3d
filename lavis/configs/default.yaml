@@ -8,5 +8,4 @@ env:
   # cache_root: "cache"
   # For internal use with persistent storage
   # cache_root: "data"
-  # cache_root: "/mnt/nas3/shared/datasets/story2world/iccv"
   cache_root: ./data
